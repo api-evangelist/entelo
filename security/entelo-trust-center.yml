@@ -1,0 +1,27 @@
+generated: '2026-07-19'
+method: searched
+source: https://rival-hr.com/security
+note: >-
+  Entelo (entelo.com) 301-redirects to Rival (rival-hr.com); Entelo Recruit is a Rival product and
+  shares Rival's published security & compliance posture. Certifications and frameworks below are
+  quoted from the Rival security page.
+url: https://rival-hr.com/security
+certifications:
+- SOC 2
+- GDPR
+- ISO 27000 family
+- NIST
+- CIS Top 20
+- EU-U.S. Data Privacy Framework
+- Swiss-U.S. Data Privacy Framework
+- UK Extension to the EU-U.S. Data Privacy Framework
+disclosure_program: null
+bug_bounty: null
+evidence:
+- source: https://rival-hr.com/security
+  keywords:
+  - soc 2
+  - iso 27000
+  - gdpr
+  - nist
+  - data privacy framework

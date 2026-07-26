@@ -1,8 +1,24 @@
 aid: entelo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/entelo.png
 name: Entelo
-description: Entelo is a company surfaced as a portfolio company of battery-ventures, shasta-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Entelo is an AI-powered talent-sourcing and recruiting-automation platform for finding, engaging,
+  and hiring candidates using predictive analytics, diversity-aware search, and candidate-engagement
+  tooling. Entelo was acquired and is now delivered as "Entelo Recruit" within Rival (rival-hr.com),
+  an AI-powered HR orchestration suite spanning recruiting, workflow, learning, and performance. Its
+  former domain entelo.com now 301-redirects to Rival. No public developer portal, API reference, or
+  OpenAPI is currently published for the Entelo/Rival Recruit product.
 url: https://raw.githubusercontent.com/api-evangelist/entelo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +27,20 @@ x-backed-by:
 - shasta-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-successor: https://rival-hr.com/entelo-recruit/
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Recruiting
+- Talent Acquisition
+- Human Resources
+- Sourcing
+- Candidate Engagement
+- Artificial Intelligence
+- Applicant Tracking
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,28 @@ maintainers:
 common:
 - type: Website
   url: https://www.entelo.com
+- type: Product
+  url: https://rival-hr.com/entelo-recruit/
+- type: StatusPage
+  url: https://status.rival-hr.com
+- type: ChangeLog
+  url: https://rival-hr.com/resources/release-notes
+- type: Integrations
+  url: https://rival-hr.com/integrations
+- type: TrustCenter
+  url: https://rival-hr.com/security
+- type: Compliance
+  url: https://rival-hr.com/security
+- type: TermsOfService
+  url: https://rival-hr.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://rival-hr.com/privacy-policy
+- type: DomainSecurity
+  url: security/entelo-domain-security.yml
+- type: LLMsTxt
+  url: llms/entelo-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
