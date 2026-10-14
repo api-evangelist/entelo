@@ -1,0 +1,49 @@
+generated: '2026-10-14'
+method: searched
+checked:
+- greenhouse/integrations/greenhouse-integration-edges.yml
+- okta/integrations/okta-integration-edges.yml
+source:
+- greenhouse/integrations/greenhouse-integration-edges.yml
+- okta/integrations/okta-integration-edges.yml
+edges:
+- partner_name: Greenhouse (own)
+  partner: greenhouse
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://integrations.greenhouse.com/partners/convey-iq
+  mirror_of: greenhouse/integrations/greenhouse-integration-edges.yml
+  apps:
+  - ConveyIQ by Entelo
+  - Search by Entelo
+  listing_count: 2
+  detected: '2026-10-14'
+  detected_by: mirror-platform-listings.py
+- partner_name: Okta (own)
+  partner: okta
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://www.okta.com/integrations/conveyiq/
+  mirror_of: okta/integrations/okta-integration-edges.yml
+  apps:
+  - ConveyIQ by Entelo
+  listing_count: 1
+  detected: '2026-10-14'
+  detected_by: mirror-platform-listings.py
+  category: Lifecycle Management
+  badges:
+  - OKTA_VERIFIED
+  features:
+  - CREATE
+  - DEACTIVATE
+  - UPDATE
